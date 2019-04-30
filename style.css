@@ -70,7 +70,7 @@ body{
 	box-shadow: 0px 0px 6px #000000;
 	background-color: #555;
 	opacity: 0.83;
-	color:  #eee;
+    color: #fff;
 }
 
 #edito h2
@@ -89,9 +89,13 @@ body{
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-background-color: #555;
-color: #eee;
+	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
+	background-image: -webkit-linear-gradient(left, black, black, yellow, red);
+	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
 	opacity: 0.83;
+    color: #fff;
 }
 
 #news a{
